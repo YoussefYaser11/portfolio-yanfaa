@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Acme", sans-serif;
+    scroll-behavior: smooth;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+.header{
+    width: 100%;
+    height: 700px;
+}
+.aboutme h1{
+    font-size: 50px;
+}
+.aboutme h2{
+    width: 300px;
+    text-align: start;
+}
+.aboutme a{
+    font-size: 40px;
+    color: white;
+    margin-left: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.project-text h2{
+    font-size: 60px;
+}
+.project-text h2::first-letter{
+    color: cornflowerblue;
+}
+.contact{
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.contact h2{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.form input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    display: block;
+    outline: none;
+    border: none;
+    text-indent: 20px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.form textarea {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    display: block;
+    outline: none;
+    border: none;
+    text-indent: 20px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+.form button{
+    letter-spacing: 3px;
+    font-size: 20px;
+    border:none;
+    padding: 10px 20px;
+    color: cornflowerblue;
+    background-color: #fff;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    margin-bottom: 50px;
+}
+.form button:hover{
+    color: #fff ;
+    background-color: rgb(41, 90, 180);
+}
+.form .mab{
+    width: 100%;
+    height: 460px;
+}
+footer p{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: black;
+}
+footer p::first-letter{
+    color: cornflowerblue;
+}  
